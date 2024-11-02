@@ -3,6 +3,7 @@ addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
 });
 
+
 const routes = {
   "docker.xuanhi.top": "https://registry-1.docker.io",
   "quay.xuanhi.top": "https://quay.io",
